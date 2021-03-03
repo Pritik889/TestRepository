@@ -1,0 +1,52 @@
+.bar{
+    
+    height: 45px;    
+   font-family:'Segoe UI';
+}
+
+
+.bar-link {    
+    text-decoration: none;    
+    color: black;
+    margin-top: 5px;
+    position: relative;
+    left: 30px;
+    font-size: 25px;
+    
+  }
+ .nav-icon{
+    font-size: 30px;
+     margin-left: 20px;
+     margin-top: 10px;
+     
+ }
+
+.nav-link{
+    text-decoration: none;    
+    color: black;
+    margin-top: 10px;
+    position: relative;
+    font-size: 20px;
+
+    
+}
+.nav-link-text{
+    text-decoration: none;    
+    color: black;
+    margin-top: 10px;
+    position: relative;
+    font-size: 18px;
+    text-align:center;
+}
+.nav-link-icon{
+    
+    position: relative;
+    font-size: 30px;
+    text-align:center;
+
+    
+}
+.nav-link:hover{
+   
+    transform: translateY(-7px);
+}

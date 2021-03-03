@@ -1,0 +1,41 @@
+.dmain-container {   
+    margin-left: 50px;
+    margin-right: 50px;
+     
+}
+
+.ditem {  
+   
+    width: 200px;
+    margin-top: 30px; 
+    justify-content: space-between;
+}
+
+
+  .dmain{
+    justify-content: space-between; 
+  }
+
+  
+  .dbutton{
+  width: 100px;
+  margin-top: 20px;
+  margin-left: 30px;
+  box-shadow: 0 10px 10px -2px rgba(0,0,0,.25);
+  transition: all 0.3s ease 0s;
+  }
+  .dbutton:hover{
+    box-shadow: 0px 15px 20px rgba(15, 46, 223, 0.4);
+   
+    transform: translateY(-7px);
+  }
+
+  .dbox {
+    align-items: center;
+    background-color: rgba(134, 130, 132, 0.096);
+    width: 900px;
+    margin-left: 100px;
+    box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.2), 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12);
+  }
+  
+ 

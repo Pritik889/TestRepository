@@ -1,0 +1,43 @@
+.main{
+    background-color: lightgray;
+    min-height: 657px;
+}
+.boldHead{
+    
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.context{
+    
+    margin-left: 15px;
+}
+.hr-command-bar{
+    width: 345px;
+    margin-left: 170px;
+    display: inline-block;
+}
+.hr-command-bar-button{
+    margin-top:5px;
+    margin-bottom: -10px;
+   margin-right: 10px;
+    
+}
+.card-item{
+    display: inline-block;
+    margin:10px;  
+    font-family:'Segoe UI';
+}     
+.cardbox
+{
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 10px;
+    height:270px;
+    width:345px;    
+  font-family:'Segoe UI';
+    -webkit-box-shadow: 1px 1px 3px 3px #ccc;  
+    -moz-box-shadow:    1px 1px 3px 3px #ccc;
+    box-shadow:         1px 1px 3px 3px #ccc;
+}
+       

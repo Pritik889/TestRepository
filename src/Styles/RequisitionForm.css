@@ -1,0 +1,352 @@
+.textDialog {
+    max-width: 100%;
+    width : 300px;
+    max-height: 100%;
+    height : 1200px;
+}
+
+.filter {
+    position:absolute;
+    right:30%;
+}
+.infoDialog {
+    max-width: 100%;
+    width : 300px;
+    max-height: 100%;
+    height : 1200px;
+}
+.statusDialog {
+    max-width: 100%;
+    width : 650px;
+    max-height: 100%;
+    height : 300px;;
+}
+.detail-container {
+  max-width: 700px;
+}
+.detailItem {
+  display: flex;
+  flex:1;
+}
+.icon-close{
+margin-left:170px;
+}
+.main-stack {    
+    margin: 40px auto 0 auto; 
+  }
+.command-bar{
+    
+  width: 345px;
+  margin-left: 170px;
+    display: inline-block;
+    
+  }
+  .command-bar-button{
+    margin-top:5px;
+    margin-bottom: -10px;
+   margin-right: 10px;
+    
+  }
+.main-container {   
+    margin-left: 50px;
+    margin-right: 50px;
+     
+}
+.main{
+  background-color: lightgray;
+  min-height: 657px;
+}
+.main-card {
+  max-width: 1400px;  
+}
+.cardItem{
+  display: inline-block;
+  margin:10px;  
+  font-family:'Segoe UI';
+}
+.button{
+  width: 100px;
+  margin-top: 20px;
+  margin-left: 30px;
+  box-shadow: 0 10px 10px -2px rgba(0,0,0,.25);
+  transition: all 0.3s ease 0s;
+}
+.button:hover{
+    box-shadow: 0px 15px 20px rgba(15, 46, 223, 0.4);
+   
+    transform: translateY(-7px);
+}
+.button2
+{
+    position:absolute;
+    top:450px;
+    right:50px;
+    width:100px;
+    width: 100px;
+  font-weight: 500;
+  border: none;
+  box-shadow: 0 10px 10px -2px rgba(0,0,0,.25);
+  transition: all 0.3s ease 0s;
+}
+.button2:hover{
+  box-shadow: 0px 15px 20px rgba(15, 46, 223, 0.4);
+   
+    transform: translateY(-7px);
+}
+.item {    
+    width: 200px;
+}
+.currencyDropdown
+{
+   
+    border: 1px solid;
+       border-radius: 2px;
+     cursor: pointer;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: bold;
+        line-height: 1.5;
+    margin: 0;
+        padding: 0.5rem;
+    position: relative;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.3s ease;
+    transition-property: border-color, background-color, color;
+}
+.smallTextboxSize{
+    border: 1px solid;
+   
+    border-radius: 2px;
+ 
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: bold;
+    
+    line-height: 1.5;
+    margin: 0;
+    width: 150px;
+   
+    position: relative;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.3s ease;
+    transition-property: border-color, background-color, color;
+
+}
+.lablestyle{
+    font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+   
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(50, 49, 48);
+    box-sizing: border-box;
+    box-shadow: none;
+    margin: 0px;
+    display: inline-block;
+    padding: 0px 0px;
+    overflow-wrap: break-word;
+}
+.divwithDdlAndTextBox
+{
+    position:relative;width:200px;height:25px;border:0;padding:0;margin:0;
+}
+
+.jd {    
+    width: 400px;
+    margin-top: 30px; 
+    justify-content: space-between;
+}
+
+.box {
+  position:absolute;
+  width:800px;
+  height:540px;
+  left: 200px;  
+  background-color: rgba(134, 130, 132, 0.096);
+  box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.2), 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12);
+  }
+
+  .main{
+    justify-content: space-between; 
+  }
+
+  .header
+{
+    height:80px;
+    display: flex;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.headerbtn
+{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.iconclass
+{
+    width:50px;
+    height:50px;
+    font-size: 30px;margin-top: -5px;
+    margin-left: 5px;
+    
+}
+.icondiv
+{
+    width:45px;
+    height:40px;
+}
+.cardHead {
+    margin-top: 15px;
+    position: absolute;
+    margin-left: 20px;
+    height:40px;
+    width:330px;
+    display: flex;
+}
+.headTopDescription{
+margin-left: 65px;
+position: absolute;
+top:85px;
+color: palevioletred;
+}
+.boldTxt{
+    
+    margin-top: 5px;
+    margin-left: 15px;
+    
+    font-weight: bold;
+}
+.lowerDescription
+{
+    font-size:14px;
+    position: absolute;
+    margin-left: 65px;
+    margin-top: 25px;
+    font-weight: bold;
+}
+.mainText
+{
+    width: 400px;
+    margin-left: 30px;
+    position: absolute;
+    margin-top: 60px;
+    
+}
+.jobDescription
+{
+    display: flex;
+    position: absolute;
+    margin-top: 135px;
+    margin-left: 10px;
+}
+.looking
+{
+    font-weight: bold;
+}
+.JobCategory
+{
+    position: absolute;
+    margin-top: 175px;
+}
+.btn{
+    margin-left: 10px;
+    border: none !important;
+}
+.line
+{
+    border-top: 1px solid black;
+    position: relative;
+    top:10px;
+}
+.footer
+{
+    position: absolute;
+    margin-top: 220px;
+    margin-left: 20px;
+    display: flex;
+}
+.persona
+{
+    margin-left: 2px;
+}
+.teamMember
+{
+    position: relative;
+    width:100px;
+    top:-7px;
+    color: palevioletred;
+}
+.applyBtn
+{
+    float:right;
+    margin-top: 220px;
+}
+.lowerBtn
+{
+    margin-right: 20px;
+}
+.graphline
+{
+  margin-right: 30px;
+  margin-top: 20px;
+  min-height:250px;
+  width:300px;
+  font-size: 20px;
+}
+.card
+{
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 10px;
+    height:270px;
+    width:345px;    
+  font-family:'Segoe UI';
+    -webkit-box-shadow: 1px 1px 3px 3px #ccc;  
+    -moz-box-shadow:    1px 1px 3px 3px #ccc;
+    box-shadow:         1px 1px 3px 3px #ccc;
+}
+
+@media (min-width: 800px) {
+    .main-stack {
+        margin: 40px auto 0 auto;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    .col1{
+        flex:0 0 16%
+    }
+    .col2{
+        flex:0 0 62%
+    }
+    .col3{
+        flex:0 0 1px;
+        background-color:lightgray
+    }
+    .col4{
+        margin-left: 2%;
+        
+    }
+   .detail-container {
+      max-width: 1400px;      
+    display: flex;
+  }
+.icon-close{
+margin-left:370px;
+}
+ .textDialog {
+    max-width: 100%;
+    width : 600px;
+    max-height: 100%;
+    height : 600px;
+}
+.infoDialog {
+    max-width: 100%;
+    width : 650px;
+    max-height: 100%;
+    height : 400px;
+}
+
+  }

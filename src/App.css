@@ -1,0 +1,40 @@
+.main-container {   
+    margin-left: 50px;
+    margin-right: 50px;
+     
+}
+.button{
+  width: 100px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.item {    
+    width: 200px;
+    margin-top: 30px; 
+    justify-content: space-between;
+}
+.jd {    
+    width: 400px;
+    margin-top: 30px; 
+    justify-content: space-between;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    background-color: rgba(134, 130, 132, 0.096);
+    width: 600px;
+    margin-left: 300px;
+    box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.2), 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12);
+  }
+  .boxjd {
+    display: flex;
+    align-items: center;
+    background-color: rgba(134, 130, 132, 0.096);
+    width: 600px;
+    margin-left: 100px;
+    box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.2), 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12);
+  }
+  .main{
+    justify-content: space-between; 
+  }
